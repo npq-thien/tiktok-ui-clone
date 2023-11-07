@@ -20,9 +20,21 @@
 .logo {
 }
 
+.search,
+.search-result {
+    width: 500px;
+}
+
+.search-title {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 12px;
+}
+
 .search {
     display: flex;
-    width: 500px;
+    // width: 360px;
     height: 46px;
     align-items: center;
     background-color: #f1f1f2;
