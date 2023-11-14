@@ -101,3 +101,18 @@
         border: 1.5px solid #c5c6c9;
     }
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn {
+    font-size: 2rem;
+    margin-left: 20px;
+    padding: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
