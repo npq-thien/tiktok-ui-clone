@@ -58,12 +58,12 @@
 
 .outline {
     color: var(--primary);
-    border: 1px solid var(--primary);
-    border-color: var(--primary);
+    border: 1px solid currentColor;
+    border-color: currentColor;
 
     &:hover {
         background-color: rgba(254, 44, 85, 0.06);
-        border-color: var(--primary);
+        border-color: currentColor;
     }
 }
 

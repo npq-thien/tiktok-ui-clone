@@ -15,9 +15,30 @@
     align-items: center;
     height: 100%;
     width: var(--default-layout-width);
+    padding: var(--default-layout-horizontal-spacer);
 }
 
 .logo {
+}
+
+.upload-btn {
+    color: var(--text-color);
+    border-color: #e3e3e4;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.03);
+        border-color: #e3e3e4;
+    }
+}
+
+.plus-icon {
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.download-btn {
+    margin: 0 12px 0 24px;
+    font-size: 2rem;
 }
 
 .search,
@@ -102,10 +123,23 @@
     }
 }
 
+// Actions
 .action {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.action-btn {
+    background-color: transparent;
+    color: var(--text-color);
+    padding: 24px;
+    font-size: 2rem;
+    cursor: pointer;
+
+    + .action-btn {
+        margin-left: -24px;
+    }
 }
 
 .more-btn {
@@ -116,3 +150,10 @@
     cursor: pointer;
 }
 
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}

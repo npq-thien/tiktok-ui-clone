@@ -1,7 +1,6 @@
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import styles from './Button.module.scss';
-import { faL } from '@fortawesome/free-solid-svg-icons';
 
 const cx = classNames.bind(styles);
 
@@ -41,7 +40,7 @@ function Button({
     }
 
     const classes = cx('wrapper', {
-        [className]: className, 
+        [className]: className,
         primary,
         outline,
         text,
@@ -50,7 +49,7 @@ function Button({
         round,
         disabled,
     });
-    
+
     return (
         <Comp className={classes} {...props}>
             {leftIcon && <span className={cx('icon')}>{leftIcon}</span>}
