@@ -2,7 +2,7 @@ export const DownloadIcon = ({ width = '2.6rem', height = '2.6rem', className })
     <svg
         className={className}
         fill="currentColor"
-        font-size="26px"
+        fontSize="26px"
         viewBox="0 0 48 48"
         xmlns="http://www.w3.org/2000/svg"
         width={width}
@@ -16,7 +16,7 @@ export const DownloadIcon = ({ width = '2.6rem', height = '2.6rem', className })
 export const MessageIcon = ({ width = '2.6rem', height = '2.6rem', className }) => (
     <svg
         className={className}
-        class="css-y48l9g-StyledIcon e1nx07zo1"
+        // class="css-y48l9g-StyledIcon e1nx07zo1"
         width={width}
         height={height}
         data-e2e=""
@@ -34,7 +34,7 @@ export const MessageIcon = ({ width = '2.6rem', height = '2.6rem', className }) 
 
 export const InboxIcon = ({ width = '3.2rem', height = '3.2rem', className}) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         data-e2e=""

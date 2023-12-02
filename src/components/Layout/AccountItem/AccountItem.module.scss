@@ -1,6 +1,12 @@
 .wrapper {
     display: flex;
     align-items: center;
+    // background-color: #333;
+
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);;
+    }
 }
 
 .avatar {
@@ -8,12 +14,12 @@
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
-
 }
 
 .info {
     flex: 1;
     margin-left: 12px;
+    margin-bottom: 8px;
 }
 
 .name {
