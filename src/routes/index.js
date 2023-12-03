@@ -1,5 +1,4 @@
 import { HeaderOnly } from '~/components/Layout';
-
 import Home from '~/pages/Home';
 import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
@@ -13,6 +12,7 @@ const publicRoutes = [
     { path: '/profile', component: Profile },
     { path: '/search', component: Search, layout: null },
     { path: '/upload', component: Upload, layout: HeaderOnly },
+    { path: '/@:profile', component: Profile }, // Dynamic profile route
 ];
 
 const privateRoutes = [];

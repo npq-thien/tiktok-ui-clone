@@ -46,6 +46,10 @@
         color: #a7a7ab;
     }
 
+    .loading {
+        animation: spinner 0.5s linear infinite;
+    }
+
     .search-btn {
         width: var(--search-button-width);
         height: 46px;
@@ -77,5 +81,14 @@
 
     &:hover {
         border: 1.5px solid #c5c6c9;
+    }
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
