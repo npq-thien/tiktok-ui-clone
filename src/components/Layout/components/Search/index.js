@@ -30,7 +30,6 @@ function Search() {
             return;
         }
 
-
         const fetchApi = async () => {
             setLoading(true);
 
@@ -51,6 +50,13 @@ function Search() {
 
     const handleHideResult = () => {
         setShowResult(false);
+    };
+
+    const handleChange = (e) => {
+        const searchValue = e.target.value;
+        if (!searchValue.startsWith(' ')) {
+            return setSearchValue(searchValue);
+        }
     };
 
     return (
@@ -76,7 +82,7 @@ function Search() {
                     className={cx('input')}
                     placeholder="Search"
                     spellCheck={false}
-                    onChange={(e) => setSearchValue(e.target.value)}
+                    onChange={handleChange}
                     onFocus={() => setShowResult(true)}
                 />
 

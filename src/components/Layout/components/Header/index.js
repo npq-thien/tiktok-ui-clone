@@ -19,6 +19,8 @@ import Image from '~/components/Image';
 import Menu from '~/components/Popper/Menu';
 import { DownloadIcon, InboxIcon, MessageIcon } from '~/components/Icons';
 import Search from '../Search';
+import { Link } from 'react-router-dom';
+import routesConfig from '~/config/routes';
 
 const cx = classNames.bind(styles);
 
@@ -106,8 +108,7 @@ console.log(USER_MENU);
 
 function Header() {
     const currentUser = true;
-    
-   
+
     // Handle logic
     const handleMenuChange = (menuItem) => {
         console.log(menuItem);
@@ -116,9 +117,9 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <div className={cx('logo')}>
-                    <img src={images.logo} alt="Tiktok" />
-                </div>
+                    <Link to={routesConfig.home} className={cx('logo-link')}>
+                        <img src={images.logo} alt="Tiktok" />
+                    </Link>
 
                 {/* Search bar */}
                 <Search />
@@ -161,7 +162,7 @@ function Header() {
                         </>
                     )}
 
-                    <Menu items={currentUser ? USER_MENU : MENU_ITEMS} onChange={handleMenuChange}>
+                    <Menu items={currentUser ? USER_MENU : MENU_ITEMS} onChange={handleMenuChange} hideOnClick={false}>
                         {currentUser ? (
                             <Image
                                 className={cx('user-avatar')}

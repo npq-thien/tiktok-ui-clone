@@ -18,7 +18,8 @@
     padding: var(--default-layout-horizontal-spacer);
 }
 
-.logo {
+.logo-link {
+    display: flex;
 }
 
 .upload-btn {
