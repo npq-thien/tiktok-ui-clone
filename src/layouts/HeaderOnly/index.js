@@ -1,6 +1,6 @@
-import Header from '~/components/Layout/components/Header';
+import Header from '~/layouts/components/Header';
 
-function DefaultLayout({children}) {
+function DefaultLayout({ children }) {
     return (
         <div>
             <Header />
