@@ -240,7 +240,7 @@ function Header() {
                                 <FontAwesomeIcon icon={faPlus} className={cx('plus-icon')} />
                                 Upload
                             </Button>
-                            <Button primary>Log in</Button>
+                            <Button primary >Log in</Button>
                         </>
                     )}
 
