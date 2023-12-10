@@ -56,6 +56,86 @@ const MENU_ITEMS = [
                     code: 'jp',
                     title: 'Japanese',
                 },
+                {
+                    type: 'language',
+                    code: 'en',
+                    title: 'English',
+                },
+                {
+                    type: 'language',
+                    code: 'vi',
+                    title: 'Vietnamese',
+                },
+                {
+                    type: 'language',
+                    code: 'cn',
+                    title: 'Chinese',
+                },
+                {
+                    type: 'language',
+                    code: 'jp',
+                    title: 'Japanese',
+                },
+                {
+                    type: 'language',
+                    code: 'en',
+                    title: 'English',
+                },
+                {
+                    type: 'language',
+                    code: 'vi',
+                    title: 'Vietnamese',
+                },
+                {
+                    type: 'language',
+                    code: 'cn',
+                    title: 'Chinese',
+                },
+                {
+                    type: 'language',
+                    code: 'jp',
+                    title: 'Japanese',
+                },
+                {
+                    type: 'language',
+                    code: 'en',
+                    title: 'English',
+                },
+                {
+                    type: 'language',
+                    code: 'vi',
+                    title: 'Vietnamese',
+                },
+                {
+                    type: 'language',
+                    code: 'cn',
+                    title: 'Chinese',
+                },
+                {
+                    type: 'language',
+                    code: 'jp',
+                    title: 'Japanese',
+                },
+                {
+                    type: 'language',
+                    code: 'en',
+                    title: 'English',
+                },
+                {
+                    type: 'language',
+                    code: 'vi',
+                    title: 'Vietnamese',
+                },
+                {
+                    type: 'language',
+                    code: 'cn',
+                    title: 'Chinese',
+                },
+                {
+                    type: 'language',
+                    code: 'jp',
+                    title: 'Japanese',
+                },
             ],
         },
     },
